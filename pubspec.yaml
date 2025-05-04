@@ -1,0 +1,29 @@
+name: navigation_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6  # or latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/illustration.jpg
+    - assets/images/1st_floor/forward_path/main_gate.webp
+    - assets/images/1st_floor/forward_path/m-Block_entrance.webp
+    - assets/images/1st_floor/forward_path/VIT_entrance.webp
+    - assets/images/1st_floor/forward_path/m-Block.webp
+    - assets/images/2nd_floor/forward_path/2nd_floor_entrance.webp
+    - assets/images/2nd_floor/forward_path/2nd_floor_corridor.webp
